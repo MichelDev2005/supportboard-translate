@@ -2,23 +2,24 @@
 
 defined( 'BASEPATH' ) OR exit( 'No direct script access allowed' );
 
-// New User ( Admin Area ):
-$lang['e_send_password_subject'] = 'Your Account is Registered';
+// Novo Usuário (Área Administrativa):
+$lang['e_send_password_subject'] = 'Sua Conta foi Registrada';
 $lang['e_send_password_message'] = '<p>
-                                   Hi %s,
+                                   Olá %s,
                                    <br><br>
-                                   <span>Your account is successfully registered, you can use the password below to login:</span>
+                                   <span>Sua conta foi registrada com sucesso, você pode usar a senha abaixo para fazer login:</span>
                                    <br>
                                    <span>%s</span>
                                    <br><br>
-                                   <span>Thanks,<br>%s</span>
+                                   <span>Obrigado,<br>%s</span>
                                    </p>';
-// Email Settings:
-$lang['e_test_email_subject']    = 'Email Settings Test';
-$lang['e_test_email_message']    = '<p>Hi there, seems your settings are good to go.</p>';
+// Configurações de Email:
+$lang['e_test_email_subject']    = 'Teste das Configurações de Email';
+$lang['e_test_email_message']    = '<p>Olá, parece que suas configurações estão corretas.</p>';
 
-// Send Email to User:
-$lang['e_email_user_message']    = 'Hi %s,
+// Enviar Email para o Usuário:
+$lang['e_email_user_message']    = 'Olá %s,
                                    <br>
                                    <p>%s<p>
-                                   <span>Thanks,<br>%s Support</span>';
+                                   <span>Obrigado,<br>Suporte %s</span>';
+?>

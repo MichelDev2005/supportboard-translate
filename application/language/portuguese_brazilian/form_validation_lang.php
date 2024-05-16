@@ -2,13 +2,14 @@
 
 defined( 'BASEPATH' ) OR exit( 'No direct script access allowed' );
 
-// From CodeIgniter Core:
-$lang['form_validation_max_length']            = 'The %s field cannot exceed %u characters in length.';
-$lang['form_validation_min_length']		         = 'The %s field must be at least %u characters in length.';
-$lang['form_validation_is_unique']             = 'The %s field must contain a unique value.';
-$lang['form_validation_alpha_dash']		         = 'The %s field may only contain alpha-numeric characters, underscores, and dashes.';
-$lang['form_validation_greater_than_equal_to'] = 'The %s field must contain a number greater than or equal to %s.';
-$lang['form_validation_required']              = 'The %s field is required.';
-$lang['form_validation_valid_ip']              = 'The %s field must contain a valid IP.';
-$lang['form_validation_valid_email']           = 'The %s field must contain a valid email address.';
-$lang['form_validation_is_natural']	           = 'The %s field must only contain digits.';
+// Do núcleo do CodeIgniter:
+$lang['form_validation_max_length']            = 'O campo %s não pode exceder %u caracteres de comprimento.';
+$lang['form_validation_min_length']            = 'O campo %s deve ter pelo menos %u caracteres de comprimento.';
+$lang['form_validation_is_unique']             = 'O campo %s deve conter um valor único.';
+$lang['form_validation_alpha_dash']            = 'O campo %s pode conter apenas caracteres alfanuméricos, underscores e hífens.';
+$lang['form_validation_greater_than_equal_to'] = 'O campo %s deve conter um número maior ou igual a %s.';
+$lang['form_validation_required']              = 'O campo %s é obrigatório.';
+$lang['form_validation_valid_ip']              = 'O campo %s deve conter um IP válido.';
+$lang['form_validation_valid_email']           = 'O campo %s deve conter um endereço de email válido.';
+$lang['form_validation_is_natural']            = 'O campo %s deve conter apenas dígitos.';
+?>
