@@ -1,4 +1,4 @@
-# Code of Conduct - ZDesk Translate
+# Code of Conduct - ZdeskTranslate
 
 ## Our Pledge
 
