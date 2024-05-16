@@ -53,9 +53,8 @@ $lang['suc_logout_all_self']      = 'The user (you) is successfully logged out f
 $lang['suc_u_sess_deleted']       = 'The user is successfully logged out.';
 $lang['suc_lom_others']           = 'You are successfully logged out from the other device(s).';
 $lang['suc_backup_saved']         = 'The backup is successfully saved to your server.';
-
 // Reports:
-$lang['suc_report_generated']     = 'The report is successfully generated based on your selection.';
+$lang['suc_report_generated']     = 'O relatório foi gerado com sucesso com base na sua seleção.';
 
 // Notifications:
-$lang['suc_noti_deleted']         = 'The notification is successfully deleted.';
+$lang['suc_noti_deleted']         = 'A notificação foi excluída com sucesso.';
