@@ -1,2 +1,2 @@
-# supportboard-translate
-Focused on language translation within the supportboard.
+# zdesktranslate
+Focused on language translation within the ZDesk.

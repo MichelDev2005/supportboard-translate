@@ -1,4 +1,4 @@
-# Code of Conduct - supportboard Translate
+# Code of Conduct - ZDesk Translate
 
 ## Our Pledge
 
