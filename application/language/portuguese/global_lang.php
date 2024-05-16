@@ -3,7 +3,7 @@
 defined( 'BASEPATH' ) OR exit( 'No direct script access allowed' );
 
 // Geral:
-$lang['lang_iso_code']           = 'pt_br'; // por exemplo, en, ar
+$lang['lang_iso_code']           = 'pt'; // por exemplo, en, ar
 $lang['theme_direction']         = 'ltr'; // Seu valor só pode ser: 'ltr' ou 'rtl'.
 $lang['no_records_found']        = 'Nenhum registro encontrado.';
 $lang['seems_deleted']           = 'Nenhum registro encontrado, parece deletado.';
