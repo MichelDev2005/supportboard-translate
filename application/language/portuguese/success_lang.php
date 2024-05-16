@@ -1,58 +1,58 @@
 <?php
 
 defined( 'BASEPATH' ) OR exit( 'No direct script access allowed' );
+// Geral:
+$lang['suc_deleted'] = 'O registro foi excluído com sucesso.';
+$lang['suc_updated'] = 'O comando de atualização foi executado com sucesso.';
+$lang['suc_added'] = 'O registro foi adicionado com sucesso.';
+$lang['suc_email_sent'] = 'O e-mail foi enviado com sucesso.';
+$lang['suc_email_sent_command'] = 'O comando de envio de e-mail foi executado com sucesso.';
+$lang['suc_noti_read'] = 'Todas as notificações não lidas foram marcadas como lidas com sucesso.';
+$lang['suc_note_added'] = 'A nota foi adicionada com sucesso.';
+$lang['suc_note_deleted'] = 'A nota foi excluída com sucesso.';
 
-// General:
-$lang['suc_deleted']              = 'The record is successfully deleted.';
-$lang['suc_updated']              = 'The updation command is successfully done.';
-$lang['suc_added']                = 'The record is successfully added.';
-$lang['suc_email_sent']           = 'The email is successfully sent.';
-$lang['suc_email_sent_command']   = 'The email sending command is successfully done.';
-$lang['suc_noti_read']            = 'All the unread notifications are successfully marked as read.';
-$lang['suc_note_added']           = 'Note is successfully added.';
-$lang['suc_note_deleted']         = 'Note is successfully deleted.';
+// Configurações:
+$lang['suc_esettings_tested'] = 'Enviado com sucesso, parece que suas configurações estão prontas para uso.';
+$lang['suc_imap_tested'] = 'Suas configurações parecem estar corretas, tudo pronto para usar o recurso de Email para Tickets.';
 
-// Settings:
-$lang['suc_esettings_tested']     = 'Successfully sent, seems your settings are good to go.';
-$lang['suc_imap_tested']          = 'Your settings seems fine, good to go with the Email to Tickets feature.';
+// Suporte:
+$lang['suc_replied'] = 'A mensagem de resposta foi enviada com sucesso.';
+$lang['suc_assigned_user'] = 'O ticket foi atribuído com sucesso ao usuário selecionado.';
+$lang['suc_assigned_user_c'] = 'O chat foi atribuído com sucesso ao usuário selecionado.';
+$lang['suc_ticket_replied'] = 'Sua resposta foi adicionada com sucesso.';
+$lang['suc_ticket_closed'] = 'O ticket foi fechado com sucesso.';
+$lang['suc_ticket_solved'] = 'O ticket foi marcado como resolvido com sucesso.';
+$lang['suc_ticket_reopened'] = 'O ticket foi reaberto com sucesso.';
+$lang['suc_ticket_created'] = 'O ticket foi criado com sucesso.';
+$lang['suc_ticket_created_guest'] = 'O ticket foi criado com sucesso, por favor, verifique seu endereço de e-mail <strong>( %s )</strong>.';
+$lang['suc_tr_deleted'] = 'A resposta do ticket foi excluída com sucesso.';
+$lang['suc_unassigned'] = 'O registro foi desatribuído com sucesso.';
+$lang['suc_chat_ended'] = 'O chat foi marcado como encerrado com sucesso.';
+$lang['suc_ticket_verified'] = 'Sua solicitação de ticket foi verificada com sucesso.';
+$lang['suc_ticket_fb_shared'] = 'Seu feedback foi compartilhado com sucesso.';
+$lang['suc_ticket_fb_deleted'] = 'O feedback foi excluído com sucesso.';
+$lang['suc_priority_changed'] = 'A prioridade foi alterada com sucesso.';
+$lang['suc_department_changed'] = 'O departamento foi alterado com sucesso.';
 
-// Support:
-$lang['suc_replied']              = 'The reply message is successfully sent.';
-$lang['suc_assigned_user']        = 'The ticket is successfully assigned to the selected user.';
-$lang['suc_assigned_user_c']      = 'The chat is successfully assigned to the selected user.';
-$lang['suc_ticket_replied']       = 'Your reply is successfully added.';
-$lang['suc_ticket_closed']        = 'The ticket is successfully closed.';
-$lang['suc_ticket_solved']        = 'The ticket is successfully marked as solved.';
-$lang['suc_ticket_reopened']      = 'The ticket is successfully re-opened.';
-$lang['suc_ticket_created']       = 'The ticket is successfully created.';
-$lang['suc_ticket_created_guest'] = 'The ticket is successfully created, please verify your email address <strong>( %s )</strong>.';
-$lang['suc_tr_deleted']           = 'The ticket reply is successfully deleted.';
-$lang['suc_unassigned']           = 'The record is successfully unassigned.';
-$lang['suc_chat_ended']           = 'The chat is successfully marked as ended.';
-$lang['suc_ticket_verified']      = 'Your ticket request is successfully verified.';
-$lang['suc_ticket_fb_shared']     = 'Your feedback is successfully shared.';
-$lang['suc_ticket_fb_deleted']    = 'The feedback is successfully deleted.';
-$lang['suc_priority_changed']     = 'The priority is successfully changed.';
-$lang['suc_department_changed']   = 'The department is successfully changed.';
+// Usuários:
+$lang['suc_invited'] = 'Um e-mail de convite foi enviado com sucesso.';
+$lang['suc_registered_ev'] = 'Você se registrou com sucesso e foi verificado.';
+$lang['suc_registered'] = 'Você se registrou com sucesso, por favor, verifique seu endereço de e-mail.';
+$lang['suc_change_pass_req'] = 'Um e-mail foi enviado com sucesso para este endereço de e-mail, por favor, verifique sua caixa de entrada.';
+$lang['suc_pass_changed'] = 'Sua senha foi alterada com sucesso.';
+$lang['suc_email_verified'] = 'Seu endereço de e-mail foi verificado com sucesso.';
+$lang['suc_sent_vlink'] = 'O link de verificação foi enviado com sucesso.';
+$lang['suc_email_activated'] = 'O endereço de e-mail foi ativado e verificado com sucesso.';
+$lang['suc_my_acc_deleted'] = 'Sua conta foi excluída com sucesso.';
+$lang['suc_acc_pic_deleted'] = 'A imagem do perfil foi excluída com sucesso.';
+$lang['suc_logout_all'] = 'Este usuário foi desconectado com sucesso de todos os dispositivos.';
+$lang['suc_logout_all_self'] = 'O usuário (você) foi desconectado com sucesso de todos os dispositivos.';
 
-// Users:
-$lang['suc_invited']              = 'You are successfully sent an invitation email.';
-$lang['suc_registered_ev']        = 'You are successfully registered and verified.';
-$lang['suc_registered']           = 'You are successfully registered, please verify your email address.';
-$lang['suc_change_pass_req']      = 'An email is successfully sent to this email address, please check your inbox.';
-$lang['suc_pass_changed']         = 'Your password is successfully changed.';
-$lang['suc_email_verified']       = 'Your email address is successfully verified.';
-$lang['suc_sent_vlink']           = 'The verification link is successfully sent.';
-$lang['suc_email_activated']      = 'The email address is successfully activated and verified.';
-$lang['suc_my_acc_deleted']       = 'Your account is successfully deleted.';
-$lang['suc_acc_pic_deleted']      = 'The profile picture is successfully deleted.';
-$lang['suc_logout_all']           = 'This user is successfully logged out from all the devices.';
-$lang['suc_logout_all_self']      = 'The user (you) is successfully logged out from all the devices.';
+// Ferramentas:
+$lang['suc_u_sess_deleted'] = 'O usuário foi desconectado com sucesso.';
+$lang['suc_lom_others'] = 'Você foi desconectado com sucesso de outro(s) dispositivo(s).';
+$lang['suc_backup_saved'] = 'O backup foi salvo com sucesso em seu servidor.';
 
-// Tools:
-$lang['suc_u_sess_deleted']       = 'The user is successfully logged out.';
-$lang['suc_lom_others']           = 'You are successfully logged out from the other device(s).';
-$lang['suc_backup_saved']         = 'The backup is successfully saved to your server.';
 // Reports:
 $lang['suc_report_generated']     = 'O relatório foi gerado com sucesso com base na sua seleção.';
 
