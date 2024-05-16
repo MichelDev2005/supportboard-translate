@@ -413,7 +413,7 @@ $lang['sent']                    = 'Enviado';
 $lang['last_login']              = 'Ultimo Login';
 $lang['sure_delete_pp']          = '<strong class="text-danger">Tem certeza para excluir?</strong> ao clicar em sim, a imagem do perfil ser  excluida permanentemente. ';
 $lang['activity']                = 'Atividade';
-$lang['u_change_not_allowed']    = '<strong>NOTA:</strong> Nesta p gina, Senha, Pap el e Status n o podem ser alterados para o usu rio padr o.';
+$lang['u_change_not_allowed']    = '<strong>NOTA:</strong> Nesta Página, Senha, Pap el e Status n o podem ser alterados para o usu rio padr o.';
 $lang['joined']                  = 'Juntou-se: %s';
 $lang['email_notifications']     = 'Notifica es de E-mail';
 $lang['live_chatting']           = 'Chat ao Vivo';
@@ -427,15 +427,15 @@ $lang['2fa_cookie_expiry']       = 'Expira o do Cookie de 2FA';
 $lang['2fa_show_remember']       = 'Mostrar lembrar Dispositivo de 2FA';
     
 // Pages:
-$lang['edit_page']               = 'Editar P gina';
+$lang['edit_page']               = 'Editar Página';
 $lang['content']                 = 'Conteúdo';
 $lang['meta_description']        = 'Descri o Meta';
 $lang['meta_keywords']           = 'Palavras Chave Meta';
-$lang['pages']                   = 'P ginas';
+$lang['pages']                   = 'Páginas';
 $lang['slug_tip']                = 'Se estiver em branco, o slug ser  gerado automaticamente. Recomendados caracteres s o A-Z a-z 0-9 - .e.g. sobre-n s';
-$lang['custom_pages']            = 'P ginas Personalizadas';
-$lang['create_custom_page']      = 'Criar P gina Personalizada';
-$lang['edit_custom_page']        = 'Editar P gina Personalizada';
+$lang['custom_pages']            = 'Páginas Personalizadas';
+$lang['create_custom_page']      = 'Criar Página Personalizada';
+$lang['edit_custom_page']        = 'Editar Página Personalizada';
 $lang['creator']                 = 'Criador';
 
 // Support:
@@ -528,7 +528,7 @@ $lang['dont_auto_close']         = 'N o Fechar Automaticamente';
 $lang['assign']                  = 'Atribuir';
 $lang['assign_to_me']            = 'Atribuir para Mim';
 $lang['assigned_to']             = 'Atribudo para';
-$lang['create_ticket_page_msg']  = 'Mensagem da P gina de Criar Ticket';
+$lang['create_ticket_page_msg']  = 'Mensagem da Página de Criar Ticket';
 $lang['show_this_message']       = 'Mostrar essa Mensagem';
 $lang['system']                  = 'Sistema';
 $lang['helpful']                 = 'Util';
